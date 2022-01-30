@@ -1,0 +1,33 @@
+.App-header  {
+  text-align: center;
+  height: 50vh;
+
+}
+
+.App{
+
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.title{
+  font-size: 410%;
+  font-family: monospace;
+  letter-spacing: -7px;
+  margin: 0 0 50px;
+}
+.m{
+  color: red;
+  font-size: 130%;
+}
+.y{
+  color: blue;
+  font-size: 130%;
+  letter-spacing: -20px;
+}
+
