@@ -61,8 +61,10 @@ export function YouMusic() {
           throw Error('Server error, try again later.');
         }
         response.json()})
-      .then((data) => {
-        setTitle(data.title);
+      .then((data) => {{
+      data.title && data.title != '' ? setTitle(data.title) : null
+    }
+        
         setLink(data.link);
         setSwch(false);
       })
