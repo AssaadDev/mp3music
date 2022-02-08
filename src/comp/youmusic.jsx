@@ -62,8 +62,8 @@ export function YouMusic() {
         }
         response.json()})
       .then((data) => {
-        setTitle(data.title);
-        setLink(data.link);
+        setTitle(data?.title);
+        setLink(data?.link);
         setSwch(false);
       })
       .catch( error => {
