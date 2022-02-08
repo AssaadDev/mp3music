@@ -53,7 +53,7 @@ export function YouMusic() {
       method: "GET",
       headers: {
         "x-rapidapi-host": "youtube-mp36.p.rapidapi.com",
-        "x-rapidapi-key": "39270d77d6msh5382daa75e41059p119a6ejsn6fd1d106428b",
+        "x-rapidapi-key": "2957663afcmsh3310d28a10a8d79p19e2fcjsnd3f9c3081374",
       },
     })
       .then((response) => {
