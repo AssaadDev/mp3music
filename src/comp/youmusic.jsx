@@ -76,7 +76,7 @@ export function YouMusic() {
       <form onClick={handleSubmit} method="GET">
         <input
           className="urlin"
-          placeholder="enter url"
+          placeholder="enter youtube url"
           name="YouName"
           onChange={(e) => setVideoId(e.target.value)}
         />
